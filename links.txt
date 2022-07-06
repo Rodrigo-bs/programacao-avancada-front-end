@@ -1,0 +1,29 @@
+--------------
+Especificações
+--------------
+
+Web Hypertext Application Technology Working Group (WHATWG)
+https://whatwg.org/
+
+Boas práticas de programação padrão Isobar US
+https://andrecomws.com/lab/code-standards/
+
+-------
+Artigos
+-------
+
+Tendências de design gráfico para 2022
+https://pt.venngage.com/blog/design-grafico-tendencias/
+
+HTML5: novos elementos e atributos
+https://tableless.com.br/html-5-novos-elementos-e-atributos/
+
+---------
+Templates
+---------
+
+HTML5 UP
+https://html5up.net/
+
+AdminLTE
+https://adminlte.io/
