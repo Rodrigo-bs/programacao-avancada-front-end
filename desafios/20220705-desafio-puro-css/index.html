@@ -2,31 +2,64 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Links favoritos</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
 
     <div id="cabecalho">
 
-        <div id="logo-e-titulo">
+        <header>
 
-            <div id="logo-img">
+            <div id="logo-e-titulo">
 
-            </div> <!-- Fim da div logo-img -->
+                <div id="logo-img">
 
-            <div id="titulo-cabecalho">
+                    <img id="logo" src="assets/logo.png" alt="Identidade visual do Meus Links.">
 
-            </div> <!-- Fim da div titulo-cabecalho -->
+                </div> <!-- Fim da div logo-img -->
 
-        </div> <!-- Fim da div logo-e-titulo -->
+                <div id="titulo-cabecalho">
 
-        <div id="menu">
+                    <span id="titulo">Meus Links</span>
 
-        </div> <!-- Fim da div menu -->
+                </div> <!-- Fim da div titulo-cabecalho -->
+
+            </div> <!-- Fim da div logo-e-titulo -->
+
+            <div id="menu">
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Início</a>
+                        </li>
+                        <li>
+                            <a href="#">Como funciona</a>
+                        </li>
+                        <li>
+                            <a href="#">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div> <!-- Fim da div menu -->
+
+        </header>
 
     </div> <!-- Fim da div cabecalho -->
 
@@ -34,11 +67,33 @@
 
         <div id="aplicacao">
 
+            <main>
+
+                <form action="/">
+                    <input type="text" placeholder="Nome,http...">
+                </form>
+
+                <ul id="lista-urls">
+                    <li class="url">Google - https://google.com</li>
+                    <li class="url">UFAC - https://ufac.br</li>
+                    <li class="url">IFAC - https://ifac.edu.br</li>
+                </ul>
+
+            </main>
+
         </div> <!-- Fim da div aplicacao -->
 
         <div id="texto-video-anuncio">
 
             <div id="texto">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie placerat laoreet. Phasellus
+                    finibus efficitur hendrerit. Vivamus id efficitur tortor. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Nunc dictum aliquet porttitor. Nunc a est metus. Nullam finibus tincidunt libero
+                    sit amet lacinia. Nam tincidunt mi eu felis ornare ultricies. Praesent lobortis purus at mauris
+                    interdum, in luctus leo viverra. Pellentesque dapibus orci pellentesque quam faucibus, vitae
+                    suscipit turpis efficitur. Aenean condimentum dui nec metus volutpat, id facilisis arcu dictum.
+                    Suspendisse condimentum mollis rutrum.</p>
 
             </div> <!-- Fim da div texto -->
 
@@ -46,13 +101,20 @@
 
                 <div id="video">
 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YqUUvBpCtfA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
                 </div> <!-- Fim da div video -->
 
                 <div id="anuncio">
 
+                    <img src="assets/anuncio.jpg" alt="Imagem de anúncio.">
+
                 </div> <!-- Fim da div anuncio -->
 
-            </div> <!--  -->
+            </div> <!-- Fim da div video-e-anuncio -->
 
         </div> <!-- Fim da div texto-video-anuncio -->
 
@@ -60,21 +122,28 @@
 
     <div id="rodape">
 
-        <div id="mapa-e-contato">
+        <footer>
 
-            <div id="mapa">
+            <div id="mapa-e-contato">
 
-            </div> <!-- Fim da div mapa -->
+                <div id="mapa">
+                    <p>Mapa do site:</p>
+                </div> <!-- Fim da div mapa -->
 
-            <div id="contato">
+                <div id="contato">
+                    <p>Entre em contato em contato@meuslinks.com</p>
+                </div> <!-- Fim da div contato -->
 
-            </div> <!-- Fim da div contato -->
+            </div> <!-- Fim da div mapa-e-contato -->
 
-        </div> <!-- Fim da div mapa-e-contato -->
+            <div id="assinatura">
+                <p>
+                    Copyright © 2022 Victor Vieira<br>
+                    Todos os direitos reservados.<br>
+                </p>
+            </div> <!-- Fim da div assinatura -->
 
-        <div id="assinatura">
-
-        </div> <!-- Fim da div assinatura -->
+        </footer>
 
     </div> <!-- Fim da div rodape -->
 

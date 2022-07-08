@@ -1,0 +1,49 @@
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 30vw;
+}
+
+#titulo-cabecalho {
+    text-align: center;
+}
+
+#titulo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+}
+
+/* Menu */
+
+input, #lista-urls {
+    display: block;
+    margin: 10px auto;
+    width: 90vw;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px #00000033;
+    border: 1px solid #ddd;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.url {
+    padding: 10px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+li span {
+    cursor: pointer;
+}
+
+#video-e-anuncio {
+    display: none;
+}
+
+#rodape{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}

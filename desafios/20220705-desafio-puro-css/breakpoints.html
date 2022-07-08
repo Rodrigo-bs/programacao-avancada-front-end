@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
-        p{
+        /* Trabalhando com conceito de mobile first. */
+        p {
             background-color: brown;
         }
 
-        @media (min-width: 480px){
-            p{
+        /* Primeiro ponto de quebra (breakpoint), em 480 px, para versão tablet. */
+        @media (min-width: 480px) {
+            p {
                 background-color: chartreuse;
             }
         }
-        
-        @media (min-width: 768px){
-            p{
+
+        /* Segundo ponto de quebra, em 768px, para versão desktop. */
+        @media (min-width: 768px) {
+            p {
                 background-color: gold;
             }
         }
     </style>
+
 </head>
+
 <body>
     <p>
-        Testando ponto de quebra
+        Testando ponto de quebra...
     </p>
 </body>
+
 </html>
