@@ -11,6 +11,10 @@ header {
     background-color: #353D41;
 }
 
+.container-fluid {
+    padding: 0 !important;
+}
+
 .navbar-menu {
     background-color: #353D41;
     display: flex;
