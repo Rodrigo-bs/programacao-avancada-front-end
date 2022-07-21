@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+header {
+    background-color: #353D41;
+}
+
+.navbar-menu {
+    background-color: #353D41;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-toggler {
+    display: none;
+}
+
+#logo {
+    width: 75px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Sobre o MVP Studio */
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-title {
+    color: #414141;
+    font-size: 40px;
+    margin: 0 0 65px 0;
+    text-align: center;
+}
+
+.line-title {
+    border-bottom: 2px solid #333;
+    width: 10%;
+    left: 45%;
+    position: absolute;
+    margin-top: -40px;
+}
+
+.about-title {
+    font-size: 18px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: green;
+    font-size: 15px;
+}
+
+/* Serviços */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h3 {
+    color: green;
+}
+
+.service-box i, .service-box h3 {
+    transition: .5s;
+}
